@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Random;
 
 public class Wallis {
@@ -44,6 +45,7 @@ public class Wallis {
 			System.out.println(array[i]);
 		}
 		System.out.println("Linear Search result :"+LinearS(35, array));
+		Arrays.sort(array);
 		
 	}
 	
