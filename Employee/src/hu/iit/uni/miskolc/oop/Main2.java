@@ -20,7 +20,7 @@ public class Main2 {
 		Employee employeeWithHighestSalary=employeeArray[0];
 		
 		for (int i = 0; i < employeeArray.length; i++) {
-			if(employeeWithHighestSalary.isBigerSalary(employeeArray[i])){
+			if(employeeWithHighestSalary.isBigggerSalary(employeeArray[i])){
 				employeeWithHighestSalary=employeeArray[i];
 			}
 			
